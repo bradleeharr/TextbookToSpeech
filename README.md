@@ -37,7 +37,7 @@ To run the application:
 2. Rename the file to `textbook.pdf` or modify the code in `main()` to use your file's name.
 3. Run the script:
    ```
-   python TextbookToSpeech.py
+   python PDFReaderApp.py
    ```
 4. Use the GUI to navigate through the textbook, view pages, and listen to the AI-generated audio.
 
