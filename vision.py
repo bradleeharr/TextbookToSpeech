@@ -1,12 +1,8 @@
 from openai import OpenAI
-
 from PyPDF2 import PdfReader
 from pdf2image import convert_from_path
-from pathlib import Path
 from playsound import playsound
 import base64
-import requests
-
 import os
 
 

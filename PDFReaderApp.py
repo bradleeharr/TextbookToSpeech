@@ -8,8 +8,8 @@ from openai import OpenAI
 from vision import extract_pages_with_complex_content, encode_image
 import threading
 
-MAX_PAGES = 1100
-START_PAGE = 390
+MAX_PAGES = 292
+START_PAGE = 100
 
 
 def play_sound(audio_file_path):
@@ -180,8 +180,8 @@ class PDFReaderApp:
                           and η may need to be represented as "eta", and so on.
                           Speak in the POV that you are the text. Do not reference "The Text" or "The Page"
                           Please structure your response similar to the text. Throughout add useful information such as insights,
-                        summaries, and educational elaborations or useful applications.
-                        Indicate that you are switching to a new paragraph by saying "New Paragraph"
+                          summaries, and educational elaborations or useful applications.
+                          Indicate that you are switching to a new paragraph by saying "New Paragraph"
                           Please do your best. 
                           This is very important for my career."""
         client = OpenAI()
@@ -221,7 +221,7 @@ class PDFReaderApp:
 def main():
     print("Test")
     root = tk.Tk()
-    app = PDFReaderApp(root, r"C:\Users\bubba\Documents\My Code\gr-GPT\textbooktospeech\probabilitytextbook.pdf")
+    app = PDFReaderApp(root, r"textbook.pdf")
     root.mainloop()
 
 
