@@ -7,8 +7,12 @@ A simple python application using GPT4-V to convert pdf pages of textbooks into 
 - Caches pages for faster access and reduced processing.
 - Descriptions of images for complex content like equations and figures.
 - Simple GUI built with Tkinter for easy navigation and use.
-  
+
+# Examples 
+GUI picture:
 ![image](https://github.com/bradleeharr/TextbookToSpeech/assets/56418392/38729c3c-bccb-4549-a9d4-f4d091b85b33)
+
+Text to Speech Demo: [download the video here](https://github.com/bradleeharr/TextbookToSpeech/blob/main/2023-11-27%2022-21-11.mkv).
 
 ## Installation
 To set up TextbookToSpeech, you need Python installed on your system. Then, follow these steps:
