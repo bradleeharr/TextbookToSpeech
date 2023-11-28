@@ -1,0 +1,1 @@
+image files go in this folder, generated directly from each page of the pdf.

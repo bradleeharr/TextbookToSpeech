@@ -169,7 +169,7 @@ class PDFReaderApp:
     def generate_audio_for_page(self, page_number, audio_file_path):
         print(page_number)
         pdftext = extract_pages_with_complex_content(self.pdf_path, 'images', page_number)
-        messageText = """Analyze the image as a page from a 'Probability and Random Variables' Textbook.
+        messageText = """Analyze the image as a page from a Textbook.
                           Imagine you are reading aloud from a textbook. Your task is to describe and explain the 
                           content in a way that is clear and understandable, especially focusing on equations, figures, and 
                           complex topics. Assume the reader is listening to this as an audio book and does not have
